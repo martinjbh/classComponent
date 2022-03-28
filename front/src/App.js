@@ -7,7 +7,7 @@ import ShowRedux from './Componentes/ShowRedux/ShowRedux';
 import InputRedux from './Componentes/InputRedux/InputRedux';
 import ShowMovies from './Componentes/ShowMovies/ShowMovies';
 import { CreadorMovie } from './Componentes/CreadorMovie/CreadorMovie';
-
+import FormularioAxios from './Componentes/FormularioAxios/FormlarioAxios';
 function App() {
   const [valor, setValor] = useState()
 
@@ -24,8 +24,13 @@ function App() {
 
       <hr></hr>
       <h1>Movies</h1>
-      <CreadorMovie/>
-     <ShowMovies/>
+      <CreadorMovie />
+      <ShowMovies />
+      <hr></hr>
+      <h1>FormularioClassAxios</h1>
+<FormularioAxios/>
+
+
     </div>
   );
 }
