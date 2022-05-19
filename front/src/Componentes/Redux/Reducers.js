@@ -4,7 +4,6 @@ const initialState = {
     apellido: "barreiro",
     movies:[]
 }
-
 export const Reducer = (state = initialState, action) => {
     switch (action.type) {
         case "CAMBIAR_NOMBRE": {

@@ -8,9 +8,10 @@ import InputRedux from './Componentes/InputRedux/InputRedux';
 import ShowMovies from './Componentes/ShowMovies/ShowMovies';
 import { CreadorMovie } from './Componentes/CreadorMovie/CreadorMovie';
 import FormularioAxios from './Componentes/FormularioAxios/FormlarioAxios';
+import ModificadorEstadoClass from './Componentes/ModificadorEstadoClass/ModificadorEstadoClass';
+import Nuevo from './Componentes/Nuevo/Nuevo';
 function App() {
   const [valor, setValor] = useState()
-
   return (
     <div className="App">
       <hr></hr>
@@ -28,9 +29,16 @@ function App() {
       <ShowMovies />
       <hr></hr>
       <h1>FormularioClassAxios</h1>
-<FormularioAxios/>
-
-
+      <FormularioAxios />
+      <hr></hr>
+      <h1>ClassRedux</h1>
+      <ModificadorEstadoClass />
+      <hr></hr>
+     
+      {/* <Nuevo>
+        <h1>hola</h1>
+        <p>peee</p>
+      </Nuevo> */}
     </div>
   );
 }

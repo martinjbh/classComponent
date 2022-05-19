@@ -22,7 +22,6 @@ class FormularioAxios extends React.Component {
     render() {
         return (
             <div>
-              
                 <form onSubmit={this.handleSubmit}>
                     <input onChange={this.handleInputChange} name="name" placeholder='Nombre'></input>
                     <input onChange={this.handleInputChange} name="apellido" placeholder='Apellido'></input>

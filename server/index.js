@@ -14,7 +14,6 @@ app.get('/gettit', async (req, res) => {
     })
 })
 app.post('/ApiAxios', async (req, res) => {
-    
     console.log(`AxiosNombre: ${req.body.nombre}`)
     console.log(`AxiosApellido: ${req.body.apellido}`)
     console.log(`AxiosEdad: ${req.body.edad}`)
